@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Titillium+Web:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,7 +21,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: #f7f8f8;
-  background-position: fixed;
 }
 
 .about_Us_1 {
