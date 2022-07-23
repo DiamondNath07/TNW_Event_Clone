@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Titillium+Web:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Titillium+Web:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Titillium+Web:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Titillium+Web:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&family=Short+Stack&family=Tiro+Kannada&family=Titillium+Web:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -56,9 +56,50 @@ body {
   letter-spacing: 0.14px;
 }
 
-.about_Us_1 ul li a:hover {
-  color: #000;
-  transition: 0.3s ease-in-out;
+.about_Us_2 ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: #c6ccd5;
+  font-size: 14px;
+  font-family: Graphik, sans-serif;
+  font-weight: 650;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+}
+
+.feature_A ul li a,
+.feature_B ul li a,
+.feature_C ul li a,
+.feature_D ul li a,
+.feature_E ul li a,
+.feature_F ul li a {
+  font-size: 22px;
+  line-height: 30px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+.feature_A ul,
+.feature_B ul,
+.feature_C ul,
+.feature_D ul,
+.feature_E ul,
+.feature_F ul {
+  padding: 15px 0 10px 30px;
+}
+
+.sponsor1 ul,
+.sponsor2 ul,
+.sponsor3 ul,
+.sponsor4 ul,
+.sponsor5 ul,
+.sponsor6 ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .nav_bar .about_Us_2 ul {
@@ -71,22 +112,6 @@ body {
   margin-top: 10px;
   text-decoration: none;
   list-style: none;
-}
-
-.about_Us_2 ul li a {
-  padding: 10px;
-  text-decoration: none;
-  color: #c6ccd5;
-  font-size: 14px;
-  font-family: Graphik, sans-serif;
-  font-weight: 650;
-  line-height: 20px;
-  letter-spacing: 0.14px;
-}
-
-.about_Us_2 ul li a:hover {
-  color: #000;
-  transition: 0.3s ease-in-out;
 }
 
 .container {
@@ -129,7 +154,7 @@ body {
 
 .heading h2 {
   color: #fff;
-  font-family: 'Graphik Wide', sans-serif;
+  font-family: "Graphik Wide", sans-serif;
   font-size: 64px;
   line-height: 80px;
   font-weight: 900;
@@ -169,16 +194,7 @@ body {
   color: rgb(167, 170, 178);
   font-size: 700;
   margin: 150px 100px 0 120px;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-.feature_A ul,
-.feature_B ul,
-.feature_C ul,
-.feature_D ul,
-.feature_E ul,
-.feature_F ul {
-  padding: 15px 0 10px 30px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .feature_A ul li,
@@ -188,30 +204,6 @@ body {
 .feature_E ul li,
 .feature_F ul li {
   list-style: none;
-}
-
-.feature_A ul li a,
-.feature_B ul li a,
-.feature_C ul li a,
-.feature_D ul li a,
-.feature_E ul li a,
-.feature_F ul li a {
-  font-size: 22px;
-  line-height: 30px;
-  font-family: 'Archivo Black', sans-serif;
-  font-weight: 700;
-  text-decoration: none;
-  color: #fff;
-}
-
-.feature_A ul li a:hover,
-.feature_B ul li a:hover,
-.feature_C ul li a:hover,
-.feature_D ul li a:hover,
-.feature_E ul li a:hover,
-.feature_F ul li a:hover {
-  color: rgb(0, 204, 204);
-  transition: 0.3s ease-in-out;
 }
 
 .feature_A h5,
@@ -237,7 +229,7 @@ body {
   color: #fff;
   font-size: 14px;
   line-height: 30px;
-  font-family: 'Tiro Kannada', serif;
+  font-family: "Tiro Kannada", serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -259,7 +251,7 @@ body {
 .feature_F span button {
   padding: 10px 30px 10px 30px;
   border-radius: 50px;
-  background-color: #6644ff;
+  background-color: #64f;
 }
 
 .feature_A span button label a,
@@ -272,8 +264,28 @@ body {
   color: #fff;
   font-size: 22px;
   line-height: 30px;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-weight: 700;
+}
+
+.about_Us_2 ul li a:hover {
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+
+.about_Us_1 ul li a:hover {
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+
+.feature_A ul li a:hover,
+.feature_B ul li a:hover,
+.feature_C ul li a:hover,
+.feature_D ul li a:hover,
+.feature_E ul li a:hover,
+.feature_F ul li a:hover {
+  color: rgb(0, 204, 204);
+  transition: 0.3s ease-in-out;
 }
 
 .feature_A span button label a :hover,
@@ -309,23 +321,11 @@ body {
 }
 
 .article span h1 {
-  font-family: 'Graphik Wide', sans-serif;
+  font-family: "Graphik Wide", sans-serif;
   font-size: 64px;
   line-height: 40px;
   font-weight: 900;
   padding-left: 220px;
-}
-
-.sponsor1 ul,
-.sponsor2 ul,
-.sponsor3 ul,
-.sponsor4 ul,
-.sponsor5 ul,
-.sponsor6 ul {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
-  margin-bottom: 20px;
 }
 
 .sponsor1 ul li,
@@ -335,6 +335,15 @@ body {
 .sponsor5 ul li,
 .sponsor6 ul li {
   list-style: none;
+}
+
+.article_2 .card_2 ul li a,
+.article_2 .card_3 ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: #6de;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 .sponsor1 ul li img a:hover {
@@ -355,7 +364,7 @@ body {
 }
 
 .article_2 .card_1 h6 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   color: #fff;
   font-size: 24px;
   line-height: 36px;
@@ -373,7 +382,7 @@ body {
   padding: 10px;
 }
 
-.article_2 .card_1 ul li i {
+.article_2 .card_1 ul li {
   color: #778594;
   font-size: 36px;
 }
@@ -390,7 +399,7 @@ body {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   padding-bottom: 20px;
   padding-left: 30px;
 }
@@ -405,18 +414,9 @@ body {
   padding-bottom: 15px;
 }
 
-.article_2 .card_2 ul li a,
-.article_2 .card_3 ul li a {
-  list-style: none;
-  text-decoration: none;
-  color: #66ddee;
-  font-size: 20px;
-  line-height: 22px;
-}
-
 .article_2 .card_2 ul li a:hover,
 .article_2 .card_3 ul li a:hover {
-  text-decoration: underline 1px solid #66ddee;
+  text-decoration: underline 1px solid #6de;
   transition: 0.5s ease-out;
 }
 
@@ -429,11 +429,11 @@ body {
 }
 
 .line {
-  width: 100%x;
+  width: 100%;
   height: 0px;
   margin-bottom: -15px;
   padding-top: 30px;
-  background-color: #66ddee;
+  background-color: #6de;
 }
 
 .sub h4 {
@@ -442,7 +442,7 @@ body {
   line-height: 16px;
   color: #fff;
   letter-spacing: 2px;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   margin-top: 60px;
 }
 
