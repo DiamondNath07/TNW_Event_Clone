@@ -412,8 +412,8 @@ body {
 }
 
 .article_2 .card_2 ul li,
-.article_2 .card_3 ul li {
-  padding-bottom: 15px;
+/* .article_2 .card_3 ul li 
+  padding-bottom: 15px; */
 }
 
 .article_2 .card_2 ul li a:hover,
